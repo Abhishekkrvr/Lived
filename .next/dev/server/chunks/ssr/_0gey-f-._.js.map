@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/abhishekverma/Downloads/lived-life-calculator-share-fixed/app/layout.jsx"],"sourcesContent":["import \"./globals.css\";\nexport const metadata={\n  title:\"LIVED. | Your Life in Numbers\",\n  description:\"See your life in years, weeks, days, hours, minutes, seconds and estimated heartbeats.\"\n};\nexport default function RootLayout({children}){\n  return <html lang=\"en\"><body>{children}</body></html>\n}"],"names":["metadata","title","description","RootLayout","children","lang"],"mappings":";;;;;;;;;AACO,MAAMA,WAAS;IACpBC,OAAM;IACNC,aAAY;AACd;AACe,SAASC,WAAW,EAACC,QAAQ,EAAC;IAC3C,qBAAO,8OAAC;QAAKC,MAAK;kBAAK,cAAA,8OAAC;sBAAMD;;;;;;;;;;;AAChC"}},
-    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":["file:///Users/abhishekverma/Downloads/lived-life-calculator-share-fixed/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
-}
