@@ -1,0 +1,13 @@
+@import "tailwindcss";
+:root{--bg:#f7f7f4;--ink:#171717}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+button,input{font:inherit}
+::selection{background:#171717;color:#fff}
+@keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes pulseSoft{50%{opacity:.3}}
+@keyframes heartbeat{0%,100%{transform:scale(1)}15%{transform:scale(1.17)}30%{transform:scale(1)}}
+.heartbeat{animation:heartbeat 1s infinite}
+.tabular{font-variant-numeric:tabular-nums}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;scroll-behavior:auto!important}}
