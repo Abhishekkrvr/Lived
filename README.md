@@ -2,7 +2,7 @@
 
 > A simple, thoughtful way to see your life in numbers.
 
-**Live Demo:** [View LIVED.](https://lived-reminder.vercel.app/)
+**Live Demo:** [View LIVED.](https://lived-life-passed.vercel.app/)
 
 ---
 
